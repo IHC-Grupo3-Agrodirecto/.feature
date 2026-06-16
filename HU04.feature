@@ -24,4 +24,4 @@ Feature: Inicio de sesión en la plataforma
     And presiona "Iniciar sesión"
     Then el sistema muestra el mensaje: "Usuario o contraseña incorrectos"
     And no permite el acceso a la aplicación
-    And sugerencias: "¿Olvidaste tu contraseña? Haz clic aquí"
+    And sugerencias: "¿Olvidaste tu contraseña? Haz clic aquí" 
